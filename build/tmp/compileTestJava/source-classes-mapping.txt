@@ -1,0 +1,6 @@
+co/com/banistmo/certificacion/paginautest/runners/UserRegisterRunner.java
+ co.com.banistmo.certificacion.paginautest.runners.UserRegisterRunner
+co/com/banistmo/certificacion/paginautest/stepdefinitions/GeneralStepDefinition.java
+ co.com.banistmo.certificacion.paginautest.stepdefinitions.GeneralStepDefinition
+co/com/banistmo/certificacion/paginautest/stepdefinitions/UserRegisterStepDefinition.java
+ co.com.banistmo.certificacion.paginautest.stepdefinitions.UserRegisterStepDefinition

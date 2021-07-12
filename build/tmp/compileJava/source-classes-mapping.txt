@@ -1,0 +1,32 @@
+co/com/banistmo/certificacion/paginautest/userinterfaces/PersonalDataPageElements.java
+ co.com.banistmo.certificacion.paginautest.userinterfaces.PersonalDataPageElements
+co/com/banistmo/certificacion/paginautest/userinterfaces/RegisterPasswordPageElements.java
+ co.com.banistmo.certificacion.paginautest.userinterfaces.RegisterPasswordPageElements
+co/com/banistmo/certificacion/paginautest/tasks/RegisterLocationInformation.java
+ co.com.banistmo.certificacion.paginautest.tasks.RegisterLocationInformation
+co/com/banistmo/certificacion/paginautest/utils/GeneralConstants.java
+ co.com.banistmo.certificacion.paginautest.utils.GeneralConstants
+co/com/banistmo/certificacion/paginautest/interactions/SelectInTheList.java
+ co.com.banistmo.certificacion.paginautest.interactions.SelectInTheList
+co/com/banistmo/certificacion/paginautest/utils/ValidateOperatingSystem.java
+ co.com.banistmo.certificacion.paginautest.utils.ValidateOperatingSystem
+co/com/banistmo/certificacion/paginautest/userinterfaces/LocationDataPageElements.java
+ co.com.banistmo.certificacion.paginautest.userinterfaces.LocationDataPageElements
+co/com/banistmo/certificacion/paginautest/userinterfaces/RegisterDevicesPageElements.java
+ co.com.banistmo.certificacion.paginautest.userinterfaces.RegisterDevicesPageElements
+co/com/banistmo/certificacion/paginautest/exceptions/RegisterException.java
+ co.com.banistmo.certificacion.paginautest.exceptions.RegisterException
+co/com/banistmo/certificacion/paginautest/tasks/RegisterPasswordAndAcceptConditions.java
+ co.com.banistmo.certificacion.paginautest.tasks.RegisterPasswordAndAcceptConditions
+co/com/banistmo/certificacion/paginautest/tasks/RegisterDevices.java
+ co.com.banistmo.certificacion.paginautest.tasks.RegisterDevices
+co/com/banistmo/certificacion/paginautest/utils/ValidateDate.java
+ co.com.banistmo.certificacion.paginautest.utils.ValidateDate
+co/com/banistmo/certificacion/paginautest/models/User.java
+ co.com.banistmo.certificacion.paginautest.models.User
+co/com/banistmo/certificacion/paginautest/userinterfaces/HomePageElements.java
+ co.com.banistmo.certificacion.paginautest.userinterfaces.HomePageElements
+co/com/banistmo/certificacion/paginautest/tasks/RegisterPersonalData.java
+ co.com.banistmo.certificacion.paginautest.tasks.RegisterPersonalData
+co/com/banistmo/certificacion/paginautest/questions/ValidateWelcome.java
+ co.com.banistmo.certificacion.paginautest.questions.ValidateWelcome

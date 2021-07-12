@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Register a user on the website" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-05-28T11:53:44" hostname="WILLIAMANDRESBE" time="66.121">
+  <properties/>
+  <testcase name="Successful registration" classname="Register a user on the website" time="66.121">
+    <failure message="java.lang.AssertionError: Sorry, an error occurred while registering - &#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //div[@class='image-box-header']/h1" type="java.lang.AssertionError">java.lang.AssertionError: Sorry, an error occurred while registering - 
+Expected: an element that is visible
+     but: no matching element found by xpath: //div[@class='image-box-header']/h1
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at co.com.banistmo.certificacion.paginautest.stepdefinitions.UserRegisterStepDefinition.heWillSeeTheMessage(UserRegisterStepDefinition.java:45)
+	at ✽.he will see the message Welcome to the world's largest community of freelance software testers!(src/test/resources/features/user_register.feature:12)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given the user is on the website and wishes to register
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User opens the https://www.utest.com/
+may 28, 2021 6:53:45 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --incognito,--start-maximized, goog:chromeOptions: {args: [--incognito, --start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 42234
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may 28, 2021 6:53:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP When the user finishes correctly entering the information for the registration
+| name | lastname | email | dateOfBirth | city | postalCode | country | password |
+| william | betancur | william1@gmail.com | 09/11/1992 | Medellin | 0500100 | Colombia | Medellin1913*** |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User register personal data
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Register Button
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User enters 'william' into Field first Name
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User enters 'betancur' into Field LastName
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User enters 'william1@gmail.com' into Field Email
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User select in the list
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Field birth month
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Option date birthday 
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User select in the list
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Field birth day
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Option date birthday 
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User select in the list
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Field birth year
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Option date birthday 
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User enters 'Spanish' then hits [ENTER] into Field language
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Next button
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User register location information
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User enters 'Medellin' into Field city
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Option city
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User enters '0500100' into Field post code
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User select in the list
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Field country
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Option country
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Next button
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User register devices
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User select in the list
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Field computer
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Option
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User select in the list
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Field version
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Option
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User select in the list
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Field language
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Option
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User select in the list
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Field mobile
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Option
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Next button
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User register password and accept conditions
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User enters 'Medellin1913***' into Field password
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User enters 'Medellin1913***' into Field confirm password
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Check terms and conditions
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Check security and privacy policies
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP User clicks on Next button
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then he will see the message Welcome to the world's largest community of freelance software testers!
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then validate welcome should be 'Welcome to the world's largest community of freelance software testers!'
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP FAILURE: java.lang.AssertionError: 
+Expected: an element that is visible
+     but: no matching element found by xpath: //div[@class='image-box-header']/h1?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP FAILURE: java.lang.AssertionError: 
+Expected: an element that is visible
+     but: no matching element found by xpath: //div[@class='image-box-header']/h1?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP FAILURE: co.com.banistmo.certificacion.paginautest.exceptions.RegisterException: Sorry, an error occurred while registering - 
+Expected: an element that is visible
+     but: no matching element found by xpath: //div[@class='image-box-header']/h1?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[91mSTEP FAILURE: java.lang.AssertionError: Sorry, an error occurred while registering - 
+Expected: an element that is visible
+     but: no matching element found by xpath: //div[@class='image-box-header']/h1?[0m
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Successful registration
+--------------------------------------------------------------------------?[0m
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91mTEST FAILED AT STEP Then he will see the message Welcome to the world's largest community of freelance software testers!?[0m
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: an element that is visible but: no matching element found by xpath: //div[@class='image-box-header']/h1
+]]></system-err>
+</testsuite>
